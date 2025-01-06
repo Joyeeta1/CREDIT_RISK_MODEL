@@ -1,0 +1,40 @@
+DATA DICTIONARY
+
+"train.csv" file: customer information along with the target for modelling purposes. 
+"test.csv" file: customer information along with the target for modelling purposes for model validation. 
+"Validation.csv" file: this file contains the same feature set without the target variable.
+
+Both files will contain the same feature set
+
+Columns:
+* customer_id: unique customer id for each customer (CHAR)
+* month: The month for which the data is being recorded (CHAR)
+* name: The full name of the customer (CHAR)
+* age: The age of the customer (INT)
+* address: The residential address of the customer (CHAR)
+* email: The email address of the customer (CHAR)
+* national_insurance_number: The customers national insurance number (CHAR)
+* occupation: The customers occupation (CHAR)
+* annual_income: The annual income of customer (FLOAT)
+* monthly_inhand_salary: The amount of salary the customer receives in hand each month (FLOAT)
+* num_bank_accounts: The number of bank accounts the customer holds (INT)
+* num_credit_card: The number of credit cards the customer owns (INT)
+* interest_rate: The interest rate on the customer's loans or credit (INT)
+* num_of_loan: The number of loans the customer currently has (INT)
+* type_of_loan: The types of loans held by the customer (e.g., mortgage, personal loan) (INT)
+* delay_from_due_date: The average number of days payments are delayed past the due date (INT)
+* num_of_delayed_payment: The number of times the customer has delayed payments (INT)
+* changed_credit_limit: Change in customers credit limit has changed recently (FLOAT)
+* num_credit_inquiries: The number of credit inquiries made on the customer’s credit profile (INT)
+* outstanding_debt: The total debt currently owed by the customer (FLOAT)
+* credit_utilization_ratio: The percentage of credit used by the customer relative to their total available credit (FLOAT)
+* credit_utilization_ratio_2: The percentage of credit used by the customer relative to their total available credit (FLOAT)
+* credit_utilization_ratio_3: The percentage of credit used by the customer relative to their total available credit (FLOAT)
+* credit_history_age: The length of the customer's credit history (CHAR)
+* payment_of_min_amount: Whether the customer regularly pays the minimum amount due on their credit cards (Yes/No)
+* total_emi_per_month: The total amount of Equated Monthly Installments (EMI) the customer pays each month (FLOAT)
+* amount_invested_monthly: The amount the customer invests each month (FLOAT)
+* payment_behaviour: The general pattern of the customer's payment behaviour (CHAR)
+* monthly_balance: The balance remaining in the customer’s account at the end of each month (FLOAT)
+* credit_score_target: The target or predicted credit score for the customer (FLOAT)
+
